@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <!-- Gradien warna berani khas Taskmaster: Merah ke Ungu AI -->
+    <linearGradient id="automa-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF512F" />
+      <stop offset="100%" stop-color="#DD2476" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Lingkaran Latar Belakang -->
+  <circle cx="128" cy="128" r="120" fill="url(#automa-grad)" />
+  
+  <!-- Huruf 'A' Futuristik / Struktur Jaringan -->
+  <path d="M128 45 L50 190 H90 L108 145 H148 L166 190 H206 Z M128 95 L116 125 H140 Z" fill="#ffffff" />
+  
+  <!-- Simpul/Node Agen -->
+  <circle cx="128" cy="45" r="16" fill="#1E1E2F" />
+  <circle cx="50" cy="190" r="16" fill="#1E1E2F" />
+  <circle cx="206" cy="190" r="16" fill="#1E1E2F" />
+  
+  <!-- Titik Koneksi Tengah -->
+  <circle cx="128" cy="145" r="10" fill="#1E1E2F" opacity="0.5" />
+</svg>

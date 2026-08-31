@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+requests
+python-dotenv
+google-genai
+firebase-admin
+google-cloud-firestore
+apify-client
+huggingface_hub
+Pillow

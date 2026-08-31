@@ -1,0 +1,27 @@
+# 1. Keamanan & Kunci Rahasia (SANGAT KRUSIAL)
+.env
+env.json
+serviceAccountKey.json
+firebaseAK/automa-ai-7cb26-firebase-adminsdk-fbsvc-0fb5a38f73.json
+
+# 2. Frontend (Node.js & Vite)
+node_modules/
+dist/
+npm-debug.log*
+.npm/
+
+# 3. Backend (Python)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.pytest_cache/
+
+# 4. OS & Konfigurasi Editor
+.vscode/
+.DS_Store
+Thumbs.db
+
+"5.Testing"
+tes.py
