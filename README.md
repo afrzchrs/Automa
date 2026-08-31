@@ -15,7 +15,7 @@ Automa is an autonomous, multi-agent orchestration system designed to eliminate 
 
 **Core Technologies:**
 *   **AI Models:** 
-    *   **Gemini 3.5 Pro/Flash** (via Gemini API) for primary intelligence, reasoning, and strategy.
+    *   **Gemini 3.5 Flash-lite/3.5/3.6/3.7 Flash** (via Gemini API) for primary intelligence, reasoning, and strategy.
     *   **Google Gemma** (via Hugging Face API) integrated as a lightweight, specialized fallback model for text generation and processing.
     *   **Hugging Face FLUX.1** for autonomous creative image generation.
 *   **Agent Framework:** Google GenAI SDK orchestrating specialized agent roles, governed by a custom Model Rotator script.
