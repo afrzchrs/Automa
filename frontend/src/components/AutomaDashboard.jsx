@@ -13,8 +13,12 @@ const AutomaDashboard = ({ draftId, isBackgroundAnalyzing, onBack, onViewWorkspa
   const [otonomi_level, setOtonomiLevel] = useState(1);
   
   useEffect(() => {
-    if (!draftId) return;
+    if (!draftId) {
+      setLoading(false);
+      return;
+    }
 
+    setLoading(true);
     const docRef = doc(db, "campaign_approvals", draftId);
     const unsubscribe = onSnapshot(
       docRef,
