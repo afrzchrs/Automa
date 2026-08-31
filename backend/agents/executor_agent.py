@@ -86,7 +86,9 @@ def audit_aset_dengan_gemini(strategi_data, aset_kreatif_data):
     konten_audit = {
         "strategi_harga": strategi_data.get("keputusan_harga", {}),
         "postingan_x": aset_kreatif_data.get("postingan_x_twitter", ""),
-        "postingan_linkedin": aset_kreatif_data.get("postingan_linkedin", "")
+        "postingan_linkedin": aset_kreatif_data.get("postingan_linkedin", ""),
+        "postingan_facebook": aset_kreatif_data.get("postingan_facebook",""),
+        "postingan_instagram": aset_kreatif_data.get("postingan_instagram","")
     }
 
     prompt = f"""
