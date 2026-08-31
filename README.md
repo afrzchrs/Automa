@@ -3,7 +3,7 @@
 **Submission for the Google #AllThingsAgenticHackathon**
 
 **Live Demo:** https://automa-ai-7cb26.web.app\
-**Demo Video:** [Insert YouTube/Drive Link to your ~4-min video]
+**Demo Video:** https://youtu.be/QeJB1CDaB6A
 
 ## 📖 Overview
 Automa is an autonomous, multi-agent orchestration system designed to eliminate real-world friction in digital marketing workflows. Instead of relying on manual chat-based prompts, Automa makes autonomous decisions: analyzing product data, formulating pricing strategies, generating creative copy, rendering promotional banners, and executing publishing workflows. To ensure high availability and robust performance, Automa features an intelligent **Model Rotation mechanism** that seamlessly falls back between Google's state-of-the-art models (Gemini) and open weights (Gemma).
