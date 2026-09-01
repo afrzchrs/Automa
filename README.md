@@ -2,7 +2,7 @@
 
 **Submission for the Google #AllThingsAgenticHackathon**
 
-**Live Demo:** https://automa-ai-7cb26.web.app\
+**Live Demo:** https://automa-ai-7cb26.web.app
 **Demo Video:** https://youtu.be/QeJB1CDaB6A
 
 ## 📖 Overview
