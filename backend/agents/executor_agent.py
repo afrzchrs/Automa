@@ -220,7 +220,7 @@ def jalankan_agen_eksekutor(aset_kreatif_json, strategi_json=None, otonomi_level
                 data_lama = existing_doc.to_dict()
                 riwayat_lama = data_lama.get("riwayat_banner", [])
                 
-                MAX_BANNER = 5
+                MAX_BANNER = 4
                 if banner_baru and banner_baru not in riwayat_lama:
                     if len(riwayat_lama) >= MAX_BANNER:
                         riwayat_lama.pop(0)
